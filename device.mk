@@ -467,6 +467,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_HOST_PACKAGES += \
     signapk
 
+# Shims
+PRODUCT_PACKAGES += \
+    libcamera_sdm660_shim
+
 # SQlite
 PRODUCT_PACKAGES += \
     sqlite3
