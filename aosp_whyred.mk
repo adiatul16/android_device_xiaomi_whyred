@@ -52,3 +52,6 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+    
+IS_PHONE := true    
+    
