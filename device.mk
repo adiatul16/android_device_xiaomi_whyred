@@ -469,7 +469,8 @@ PRODUCT_HOST_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim
+    libcamera_sdm660_shim \
+    libdpmframework_shim
 
 # SQlite
 PRODUCT_PACKAGES += \
