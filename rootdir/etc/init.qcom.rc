@@ -880,7 +880,6 @@ service vendor.goodix_script /vendor/bin/init.goodix.sh
 
 on charger
     setprop persist.sys.usb.config mass_storage
-    load_system_props
     start qcom-post-boot
 
 #add poweroffhandler
