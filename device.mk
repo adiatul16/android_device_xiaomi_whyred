@@ -28,7 +28,7 @@ $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Dirac
-$(call inherit-product, vendor/dirac/dirac.mk)
+$(call inherit-product-if-exists, vendor/dirac/dirac.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
