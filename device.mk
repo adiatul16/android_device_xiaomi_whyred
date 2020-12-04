@@ -451,6 +451,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
+# Signapk
+PRODUCT_HOST_PACKAGES += \
+    signapk
+
 # SQlite
 PRODUCT_PACKAGES += \
     sqlite3
