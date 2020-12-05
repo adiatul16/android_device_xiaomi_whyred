@@ -43,7 +43,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-system
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/xiaomi/whyred
+PRODUCT_SOONG_NAMESPACES += \
+    device/xiaomi/whyred \
+    hardware/google/pixel
 
 # Permissions
 PRODUCT_COPY_FILES += \
